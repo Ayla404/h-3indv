@@ -1,3 +1,5 @@
+
+
 /**
 * en result, reflejar con un objeto literal, la integración
 * de los datos en un sola estructura
@@ -28,6 +30,47 @@ let roleUser = "USER";
 let skills = ["git","github","docker","deploy"];
 let levels = [{LEVEL:"l-1"},{LEVEL:"l-2"},{LEVEL:"l-3"}];
 let result;
+
+result= Object.assign({},foo)
+delete result.alias;
+
+
+
+//1)NAME
+
+let Nam = result.name;
+result.name = Nam[0].toUpperCase()+ Nam. slice(1);
+
+//2)ROLES
+result.roles.push(roleSuperUser,roleUser);
+let Rol = result.roles[0];
+result.roles[0] = Rol.toUpperCase();
+
+
+
+//3)SKILLS
+let Sk = result.skills
+
+//add
+Sk.splice(0,0, skills[0], skills[1])//git,github
+Sk.splice(5,0, skills[2]); //docker
+Sk.push(skills[3])//deploy
+
+
+//mod
+result.skills=Sk.map(Sk => Sk.charAt(0).toUpperCase() + Sk.substring(1));
+result.skills[3]= Sk[3].toUpperCase();
+result.skills[4]= Sk[4].toUpperCase();
+
+
+//4)LEVELS
+let i=0;
+for(i in levels){
+    levels[i].LEVEL = levels[i].LEVEL.replace("l-", "L")
+    result.levels=levels
+}
+//console.log(Sk)
+//console.log(result)
 
 
 //export result

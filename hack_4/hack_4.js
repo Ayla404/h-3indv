@@ -10,7 +10,21 @@ let arr = [{a:1},{b:2},{c:3},{d:4},{e:5}];
 let tokenF = {f:6};
 let tokenG = {g:7};
 let result = [];
+
+
+
+let i = 0;
+for(;i<arr.length; i++){
+    if(i==0){
+        arr.splice(5,i,tokenF)
+    }
+    if(i==0){
+        arr.splice(i,0,tokenG)
+    }
+    result=arr.slice()
+}
  
  
+console.log(result)
 //export result
 module.exports = result; 

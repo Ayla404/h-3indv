@@ -23,6 +23,8 @@ let bar = {
 }
 let result;
 
+result = Object.assign({},foo, bar);
+
 
 //export result
 module.exports = result; 

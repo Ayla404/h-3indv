@@ -15,6 +15,20 @@ let result = {
     role:"admin"
 };
 
- 
+let nam = result.name;
+result.name = nam[0].toUpperCase()+ nam.slice(1);
+
+
+let rol = result.role;
+result.role = rol.toUpperCase();
+
+
+/*let val = result.name.charAt(0).toUpperCase()+ result.name.slice(1);
+result.name= val;
+
+let val2 = result.role.toUpperCase();
+result.role = val2*/
+//console.log(result)
+
 //export result
 module.exports = result; 

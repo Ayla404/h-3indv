@@ -12,8 +12,13 @@ let foo = {
     name:"foo",
     role:"admin"
 };
+
 let result = [];
 
+for(let i of Object.entries(foo)){
+    result.push(i)
+}
 
+//console.log(result)
 //export result
 module.exports = result; 
