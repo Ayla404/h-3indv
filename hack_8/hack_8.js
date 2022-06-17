@@ -15,10 +15,11 @@ let foo = {
 
 let result = [];
 
+let i=result;
 for(let i of Object.entries(foo)){
     result.push(i)
 }
 
-//console.log(result)
+console.log(result)
 //export result
 module.exports = result; 

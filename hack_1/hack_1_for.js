@@ -16,7 +16,7 @@ for (; i < arr.length; i++) {
   }
 
 
-console.log(result)
+
 //console.log(result)
 //export result
 module.exports = result;

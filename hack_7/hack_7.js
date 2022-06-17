@@ -13,7 +13,6 @@ let foo = {
 let result;
 
 let i = foo.skills;
-
 result= i.map(function(i){
     return i
 });
