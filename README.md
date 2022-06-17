@@ -14,10 +14,5 @@ EQUIPO 1
 
 ---
 <br/>
-EQUIPO 1
-<br/>
-|integrantes|repositorios|
-|-----------|------------|
-|Pedro Caravajal| https://github.com/Pecarvajal246/h-3|
 
 Repositorio De Aylén Lagorio
