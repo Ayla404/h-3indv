@@ -9,7 +9,7 @@
 
 ---
 <br/>
-###EQUIIPO 1
+EQUIPO 1
 |integrantes|repositorios|
 |-----------|------------|
 Pedro Caravajal| https://github.com/Pecarvajal246/h-3|
